@@ -1,11 +1,11 @@
-from easyf1.adapters import LivetimingF1adapters, livetimingF1_request
-from easyf1.models import (
+from .adapters import LivetimingF1adapters, livetimingF1_request
+from .models import (
     Session,
     Season,
     Meeting
 )
 from .api import download_data
-from easyf1.utils.helper import json_parser_for_objects
+from .utils.helper import json_parser_for_objects
 import urllib
 
 def get_season(season: int) -> Season:

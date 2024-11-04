@@ -6,7 +6,7 @@ import pandas as pd
 from typing import Optional, Union
 
 # Internal Project Imports
-from easyf1.utils.helper import *
+from ..utils.helper import *
 
 class easyf1SessionETL:
     """

@@ -7,7 +7,7 @@ import requests
 from typing import List, Dict
 
 # Internal Project Imports
-from easyf1.utils.constants import *
+from ..utils.constants import *
 
 
 class LivetimingF1adapters:

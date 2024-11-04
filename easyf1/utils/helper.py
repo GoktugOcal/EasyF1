@@ -8,9 +8,8 @@ from urllib.parse import urljoin
 from typing import List, Dict, Union
 
 # Internal Project Imports
-from easyf1.utils.constants import *
-from easyf1.adapters import LivetimingF1adapters
-
+from .constants import *
+from ..adapters import LivetimingF1adapters
 
 def build_session_endpoint(session_path):
     """

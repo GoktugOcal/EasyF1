@@ -7,9 +7,9 @@ import pandas as pd
 from typing import List, Dict
 
 # Internal Project Imports
-from easyf1.api import download_data
-from easyf1.models.session import Session
-from easyf1.utils.helper import json_parser_for_objects, build_session_endpoint
+from ..api import download_data
+from ..models.session import Session
+from ..utils.helper import json_parser_for_objects, build_session_endpoint
 
 
 class Meeting:

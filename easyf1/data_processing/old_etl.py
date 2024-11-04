@@ -4,7 +4,7 @@ from typing import (
     Optional,
     Union
 )
-from easyf1.utils.helper import *
+from ..utils.helper import *
 
 class easyf1SessionETL:
     def __init__(self, session):

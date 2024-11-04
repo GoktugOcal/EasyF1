@@ -7,9 +7,9 @@ import dateutil
 import pandas as pd
 
 # Internal Project Imports
-from easyf1.api import download_data
-from easyf1.models.meeting import Meeting
-from easyf1.utils.helper import json_parser_for_objects, build_session_endpoint
+from ..api import download_data
+from ..models.meeting import Meeting
+from ..utils.helper import json_parser_for_objects, build_session_endpoint
 
 
 class Season:

@@ -6,10 +6,10 @@ from typing import List, Dict
 # (No third-party libraries imported in this file)
 
 # Internal Project Imports
-from easyf1.adapters import livetimingF1_request, livetimingF1_getdata
-from easyf1.utils import helper
-from easyf1.data_processing.etl import *
-from easyf1.data_processing.data_models import *
+from ..adapters import livetimingF1_request, livetimingF1_getdata
+from ..utils import helper
+from ..data_processing.etl import *
+from ..data_processing.data_models import *
 
 
 class Session:

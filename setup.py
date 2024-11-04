@@ -9,12 +9,12 @@ with open("requirements.txt") as f:
 setup(
     name="easyf1",
     version="0.0.1",
-    description="""A Python API wrapper for real-time Formula 1 data collection.""",
+    description="A Python toolkit for seamless access to live and historical Formula 1 data.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Göktuğ Öcal",
     url="https://github.com/GoktugOcal/EasyF1",
-    packages=find_packages(include=["easyf1"]),
+    packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

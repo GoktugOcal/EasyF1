@@ -3,8 +3,7 @@ from urllib.parse import urljoin
 
 # Internal Project Imports
 from .adapters import livetimingF1_request
-from easyf1.utils.exceptions import easyf1Exception
-
+from .utils.exceptions import easyf1Exception
 
 def download_data(
     season_identifier: int = None, 

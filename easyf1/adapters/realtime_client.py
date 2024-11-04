@@ -9,8 +9,8 @@ import time
 import json
 from urllib.parse import urljoin
 
-from easyf1.adapters.signalr_aio._connection import Connection
-from easyf1.utils.constants import (
+from ..adapters.signalr_aio._connection import Connection
+from ..utils.constants import (
     DEFAULT_METHOD,
     BASE_URL,
     SIGNALR_ENDPOINT,
